@@ -75,6 +75,12 @@ const Signup = () => {
                   value={formState.password}
                   onChange={handleChange}
                 />
+                <input
+                name="role"
+                type="role"
+                value={formState.role}
+                onChange={handleChange}
+                />
                 <button
                   className=""
                   style={{ cursor: 'pointer' }}
